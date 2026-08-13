@@ -37,6 +37,10 @@ venv/
 # Generated models and training outputs
 checkpoints/
 outputs/
+Qwen/
+qwen_sentiment_model/
+qwen_risk_model/
+deduplicated_*.jsonl
 *.pt
 *.pth
 *.ckpt
@@ -46,4 +50,3 @@ outputs/
 *.log
 .DS_Store
 Thumbs.db
-
