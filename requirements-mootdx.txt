@@ -1,0 +1,9 @@
+# mootdx 0.11.7 declares obsolete httpx/tenacity upper bounds that conflict with
+# the current MCP/LangChain runtime. Install this optional provider file only
+# after requirements.txt, using:
+#   python -m pip install --no-deps -r requirements-mootdx.txt
+# All runtime dependencies needed by the Quotes path are explicit below.
+mootdx==0.11.7
+tdxpy==0.2.7
+prettytable>=3.5,<4
+py-mini-racer==0.6.0

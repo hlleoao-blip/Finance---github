@@ -1,0 +1,49 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local assistant and IDE configuration
+.claude/
+.agents/
+.vscode/
+.idea/
+
+# Runtime data and generated reports
+.cache/
+logs/
+reports/
+.runtime/
+.uv-cache/
+
+# Private/raw datasets
+nasdaq_news_sentiment/*.csv
+risk_nasdaq/*.csv
+data/
+datasets/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Notebook state
+.ipynb_checkpoints/
+
+# Generated models and training outputs
+checkpoints/
+outputs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
+
